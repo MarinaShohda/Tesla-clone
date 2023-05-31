@@ -17,7 +17,7 @@ function Section({title, description, backgroundImg, leftBtnText, rightBtnText})
             {rightBtnText && <RightButton>{rightBtnText}</RightButton>}
           </ButtonGroup>
         </Fade>
-        <DownArrow src='/images/down-arrow.svg' />
+        <DownArrow src='images/down-arrow.svg' />
       </Buttons>
     </Wrap>
     
@@ -43,7 +43,7 @@ const Wrap = styled.div`
   justify-content: space-between;
   align-items: center;    
   text-align: center;
-  background-image: ${ props => `url("/images/${props.bgImg}")`}
+  background-image: ${ props => `url("images/${props.bgImg}")`}
 
 `;
 
